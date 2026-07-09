@@ -31,3 +31,32 @@ build/
 
 ### VS Code ###
 .vscode/
+# Ignore application.properties if it contains passwords
+src/main/resources/application.properties
+
+src/main/java/com/ridex/ridex/config/SecurityConfig.java
+
+
+src/main/java/com/ridex/ridex/controller/CustomerController.java
+src/main/java/com/ridex/ridex/controller/RideController.java
+
+src/main/java/com/ridex/ridex/dto/LoginResponse.java
+
+
+src/main/java/com/ridex/ridex/entity/Driver.java
+
+
+src/main/java/com/ridex/ridex/repository/CustomerRepository.java
+
+src/main/java/com/ridex/ridex/security/JwtFilter.java
+
+src/main/java/com/ridex/ridex/service/DriverService.java
+
+
+src/main/resources/static/admin-dashboard.html
+src/main/resources/static/driver-dashboard.html
+src/main/resources/static/driver-trips.html
+src/main/resources/static/rides.html
+src/main/resources/static/login.html
+src/main/resources/static/admin-analytics.html
+src/main/resources/static/driver-login.html
